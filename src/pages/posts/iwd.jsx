@@ -16,7 +16,7 @@ const Iwd = () => {
       </h1>
       {/* {blog.image && ( */}
       <img
-        src="../public/images/blog-images/iwd.jpg"
+        src="/images/blog-images/iwd.jpg"
         alt="IWD"
         className="w-full h-auto mb-4 rounded"
       />

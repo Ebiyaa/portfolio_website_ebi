@@ -47,7 +47,7 @@ function about() {
             
             </div>
 
-          {/* <img src="/public/images/Me.png" alt="Ebi-Yaa Kwaw" className="rounded-2xl w-80" /> */}
+          {/* <img src="/images/Me.png" alt="Ebi-Yaa Kwaw" className="rounded-2xl w-80" /> */}
         </div>
 
       </section>
@@ -56,10 +56,10 @@ function about() {
         <section className="px-8 py-16">
             <h2 className="text-5xl font-semibold mb-6">Businesses I've designed for</h2>
             <div className="flex flex-wrap gap-12 mt-8 opacity-80">
-                <img src="/public/logos/Portfolio-framer/effects.png" alt="Effect Studios" />
-                <img src="/public/logos/Portfolio-framer/scolpta.png" alt="Scolpta" />
-                <img src="/public/logos/Portfolio-framer/wewire.png" alt="Wewire" />
-                <img src="/public/logos/Portfolio-framer/abeyie.png" alt="Abeyie" />
+                <img src="/logos/Portfolio-framer/effects.png" alt="Effect Studios" />
+                <img src="/logos/Portfolio-framer/scolpta.png" alt="Scolpta" />
+                <img src="/logos/Portfolio-framer/wewire.png" alt="Wewire" />
+                <img src="/logos/Portfolio-framer/abeyie.png" alt="Abeyie" />
             </div>
         </section>
 

@@ -14,7 +14,7 @@ const Hackhive = () => {
       </h1>
       {/* {blog.image && ( */}
       <img
-        src="../public/images/blog-images/hackhive.jpg"
+        src="/images/blog-images/hackhive.jpg"
         alt="Hackhive blog"
         className="w-full h-auto mb-4 rounded"
       />

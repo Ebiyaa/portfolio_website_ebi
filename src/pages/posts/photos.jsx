@@ -21,7 +21,7 @@ const Photos = () => {
       </p>
       <br /> <br />
       <img
-        src="../public/images/blog-images/headshot.jpg"
+        src="/images/blog-images/headshot.jpg"
         alt="Photos blog"
         className="w-full h-auto mb-4 rounded"
       />
@@ -44,7 +44,7 @@ const Photos = () => {
         </p>
         <br /> <br />
         <img
-          src="../public/images/blog-images/pathway.jpg"
+          src="/images/blog-images/pathway.jpg"
           alt="Photos blog"
           className="w-full h-auto mb-4 rounded"
         />
@@ -66,7 +66,7 @@ const Photos = () => {
         </p>
         <br /> <br />
         <img
-          src="../public/images/blog-images/padel.jpg"
+          src="/images/blog-images/padel.jpg"
           alt="Photos blog"
           className="w-full h-auto mb-4 rounded"
         />

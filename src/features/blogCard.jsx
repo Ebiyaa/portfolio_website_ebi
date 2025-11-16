@@ -33,7 +33,7 @@ export function BlogCard() {
         </div>
 
         <img
-          src="../public/images/blog-images/iwd.jpg"
+          src="/images/blog-images/iwd.jpg"
           alt="International Women's Day"
           className="cover"
         />
@@ -49,7 +49,7 @@ export function BlogCard() {
         </div>
 
         <img
-          src="../public/images/blog-images/hackhive.jpg"
+          src="/images/blog-images/hackhive.jpg"
           alt="Hackhive 1.0"
           className="cover"
         />
@@ -65,7 +65,7 @@ export function BlogCard() {
         </div>
 
         <img
-          src="../public/images/blog-images/iwd.jpg"
+          src="/images/blog-images/iwd.jpg"
           alt="International Women's Day"
           className="cover"
         />

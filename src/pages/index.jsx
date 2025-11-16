@@ -17,7 +17,7 @@ function index() {
         </h1>
       </header>
 
-          <img src="/public/images/personal.png" alt="ebi's image" className="px-8 py-16 max-w-full" />
+          <img src="/images/personal.png" alt="ebi's image" className="px-8 py-16 max-w-full" />
 
 
        {/* Services */}
@@ -74,10 +74,10 @@ function index() {
 
         {/* project images */}
             <div className="grid md:grid-cols-2 gap-6">
-              <img src="public/images/project1.png" alt="Project 1" className="rounded-xl" />
-              <img src="public/images/project2.png" alt="Project 2" className="rounded-xl" />
-              <img src="/public/images/project3.png" alt="Project 3" className="rounded-xl" />
-              <img src="/public/images/project4.png" alt="Project 4" className="rounded-xl" />
+              <img src="/images/project1.png" alt="Project 1" className="rounded-xl" />
+              <img src="/images/project2.png" alt="Project 2" className="rounded-xl" />
+              <img src="/images/project3.png" alt="Project 3" className="rounded-xl" />
+              <img src="/images/project4.png" alt="Project 4" className="rounded-xl" />
             </div>
 
         </section>
@@ -97,7 +97,7 @@ function index() {
           <a href="/resume.pdf" className="inline-block mt-6 px-6 py-2 bg-green-400 text-black rounded-full">Download my resume</a>
         </div>
         <div className="flex justify-center">
-          <img src="/public/images/Me.png" alt="Ebi-Yaa Kwaw" className="rounded-2xl w-80" />
+          <img src="/images/Me.png" alt="Ebi-Yaa Kwaw" className="rounded-2xl w-80" />
         </div>
       </section> */}
 
