@@ -10,6 +10,7 @@ import { loadBlogs } from "../features/blogSlice";
 import Hackhive from "../pages/posts/hackhive";
 import Iwd from "../pages/posts/iwd";
 import Photos from "../pages/posts/photos";
+import Video from "./posts/video";
 import "../blog.css";
 
 function Blog() {
@@ -74,11 +75,27 @@ function Blog() {
           />
         </Link>
 
+        {/* VideoAd */}
+        <Link to="/video" className="blog-card">
+          <div className="text">
+            <h3 className="text-[28px] font-normal text-white leading-10 max-w-3xl">
+            I got to play Director✨ Producing <br></br> my first video ad
+            </h3>
+          </div>
+
+          <img
+            src="/images/blog-images/headphone.png"
+            alt="International Women's Day"
+            className="cover"
+          />
+        </Link>
+
         <Routes>
           <Route path="/blog/*" element={<Blog />} />
           <Route path="/hackhive" element={<Hackhive />} />
           <Route path="/iwd" element={<Iwd />} />
           <Route path="/photos" element={<Photos />} />
+          <Route path="/video" element={<Video />} />
         </Routes>
       </div>
     </div>

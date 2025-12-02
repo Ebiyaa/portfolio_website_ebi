@@ -17,6 +17,7 @@ import BlogCard from "./features/blogCard.jsx";
 import Hackhive from "./pages/posts/hackhive.jsx";
 import Iwd from "./pages/posts/iwd.jsx";
 import Photos from "./pages/posts/photos.jsx";
+import Video from "./pages/posts/video.jsx";
 import BlogDetail from "./features/blogDetail.jsx";
 
 function App() {
@@ -87,6 +88,7 @@ function App() {
           <Route path="/iwd" element={<Iwd />} />
           <Route path="/hackhive" element={<Hackhive />} />
           <Route path="/photos" element={<Photos />} />
+          <Route path="/video" element={<Video />} />
           {/* <Route path="/blog/*" element={<Blog />} /> */}
           {/* <Route path="/blog/:id" element={<BlogDetail />} /> */}
           <Route path="/contact" element={<Contact />} />
