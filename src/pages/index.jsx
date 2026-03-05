@@ -83,6 +83,7 @@ function index() {
         </section>
      
 
+<<<<<<< HEAD
       {/* About Me */}
       {/* <section id="about" className="px-8 py-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div>
@@ -101,6 +102,8 @@ function index() {
         </div>
       </section> */}
 
+=======
+>>>>>>> ffc7f06 (glow dress)
 
       {/* Footer */}
       <footer id="contact" className="px-8 py-12 text-center">
@@ -126,6 +129,7 @@ function index() {
   );
 }
 
+<<<<<<< HEAD
 // unused
 {/* Navbar */}
       {/* <nav className="flex justify-between items-center px-8 py-4"> */}
@@ -139,6 +143,8 @@ function index() {
       {/* </nav> */}
 
       {/*  */}
+=======
+>>>>>>> ffc7f06 (glow dress)
 
 export default index;
 
