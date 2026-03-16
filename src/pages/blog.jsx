@@ -13,6 +13,7 @@ import Photos from "../pages/posts/photos";
 import Video from "./posts/video";
 import Dress from "./posts/dress";
 import "../blog.css";
+import Sound from "./posts/algorithmicSound";
 
 function Blog() {
   const dispatch = useDispatch();
@@ -106,6 +107,23 @@ function Blog() {
           />
         </Link>
 
+        {/* Sound */}
+        <Link to="/algorithmicSound" className="blog-card">
+          <div className="text">
+            <h3 className="text-[28px] font-normal text-white leading-10 max-w-3xl">
+            My First Experiment with Algorithmic Sound 🎼 <br />
+            in SuperCollider 
+            </h3>
+          </div>
+
+          <img
+            src="/images/blog-images/sound.jpg"
+            alt="Interactive Sound Experiment"
+            className="cover"
+          />
+        </Link>
+
+
         <Routes>
           <Route path="/blog/*" element={<Blog />} />
           <Route path="/hackhive" element={<Hackhive />} />
@@ -113,6 +131,7 @@ function Blog() {
           <Route path="/photos" element={<Photos />} />
           <Route path="/video" element={<Video />} />
           <Route path="/dress" element={<Dress />} />
+          <Route path="/algorithmicSound" element={<Sound />} />
         </Routes>
       </div>
     </div>

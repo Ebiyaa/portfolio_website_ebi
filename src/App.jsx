@@ -20,6 +20,7 @@ import Photos from "./pages/posts/photos.jsx";
 import Video from "./pages/posts/video.jsx";
 import BlogDetail from "./features/blogDetail.jsx";
 import Dress from "./pages/posts/dress.jsx";
+import Sound from "./pages/posts/algorithmicSound.jsx";
 
 function App() {
   return (
@@ -94,6 +95,7 @@ function App() {
           {/* <Route path="/blog/:id" element={<BlogDetail />} /> */}
           <Route path="/contact" element={<Contact />} />
           <Route path="/dress" element={<Dress />} />
+          <Route path="/algorithmicSound" element={<Sound />} />
         </Routes>
       </main>
     </Router>
