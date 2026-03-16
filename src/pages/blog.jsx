@@ -11,10 +11,7 @@ import Hackhive from "../pages/posts/hackhive";
 import Iwd from "../pages/posts/iwd";
 import Photos from "../pages/posts/photos";
 import Video from "./posts/video";
-<<<<<<< HEAD
-=======
 import Dress from "./posts/dress";
->>>>>>> ffc7f06 (glow dress)
 import "../blog.css";
 
 function Blog() {
@@ -94,8 +91,6 @@ function Blog() {
           />
         </Link>
 
-<<<<<<< HEAD
-=======
         {/* Glow Dress */}
         <Link to="/dress" className="blog-card">
           <div className="text">
@@ -111,17 +106,13 @@ function Blog() {
           />
         </Link>
 
->>>>>>> ffc7f06 (glow dress)
         <Routes>
           <Route path="/blog/*" element={<Blog />} />
           <Route path="/hackhive" element={<Hackhive />} />
           <Route path="/iwd" element={<Iwd />} />
           <Route path="/photos" element={<Photos />} />
           <Route path="/video" element={<Video />} />
-<<<<<<< HEAD
-=======
           <Route path="/dress" element={<Dress />} />
->>>>>>> ffc7f06 (glow dress)
         </Routes>
       </div>
     </div>

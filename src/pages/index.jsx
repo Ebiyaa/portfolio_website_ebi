@@ -83,27 +83,6 @@ function index() {
         </section>
      
 
-<<<<<<< HEAD
-      {/* About Me */}
-      {/* <section id="about" className="px-8 py-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        <div>
-          <h2 className="text-green-400 font-semibold text-lg">Ebi-Yaa Kwaw</h2>
-          <p className="italic text-gray-400 mb-4">pronounced as /ebi·jaa/</p>
-          <p className="text-gray-300 leading-relaxed">
-            "As a mid-level Product Designer, I create engaging and accessible digital solutions
-            that meet diverse user needs across industries. With a BA in Psychology and Information Studies,
-            I apply human-centered design principles and research methods to understand behavior and pain points. 
-            I have worked with startups, agencies, and communities like UXGhana to deliver impactful design.
-          </p>
-          <a href="/resume.pdf" className="inline-block mt-6 px-6 py-2 bg-green-400 text-black rounded-full">Download my resume</a>
-        </div>
-        <div className="flex justify-center">
-          <img src="/images/Me.png" alt="Ebi-Yaa Kwaw" className="rounded-2xl w-80" />
-        </div>
-      </section> */}
-
-=======
->>>>>>> ffc7f06 (glow dress)
 
       {/* Footer */}
       <footer id="contact" className="px-8 py-12 text-center">
@@ -129,22 +108,6 @@ function index() {
   );
 }
 
-<<<<<<< HEAD
-// unused
-{/* Navbar */}
-      {/* <nav className="flex justify-between items-center px-8 py-4"> */}
-        {/* <div className="text-green-400 font-bold text-xl">ek.</div> */}
-        {/* <div className="space-x-6 hidden md:flex rounded-full bg-gray-500 text-white py-2 px-6"> */}
-          {/* <a href="#projects" className="hover:text-green-400">projects</a> */}
-          {/* <a href="#services" className="hover:text-green-400">services</a> */}
-          {/* <a href="#about" className="hover:text-green-400">about me</a> */}
-          {/* <a href="#contact" className="text-white">let's talk</a> */}
-        {/* </div> */}
-      {/* </nav> */}
-
-      {/*  */}
-=======
->>>>>>> ffc7f06 (glow dress)
 
 export default index;
 

@@ -19,10 +19,7 @@ import Iwd from "./pages/posts/iwd.jsx";
 import Photos from "./pages/posts/photos.jsx";
 import Video from "./pages/posts/video.jsx";
 import BlogDetail from "./features/blogDetail.jsx";
-<<<<<<< HEAD
-=======
 import Dress from "./pages/posts/dress.jsx";
->>>>>>> ffc7f06 (glow dress)
 
 function App() {
   return (
@@ -96,10 +93,7 @@ function App() {
           {/* <Route path="/blog/*" element={<Blog />} /> */}
           {/* <Route path="/blog/:id" element={<BlogDetail />} /> */}
           <Route path="/contact" element={<Contact />} />
-<<<<<<< HEAD
-=======
           <Route path="/dress" element={<Dress />} />
->>>>>>> ffc7f06 (glow dress)
         </Routes>
       </main>
     </Router>
